@@ -1,0 +1,22 @@
+ticker,name,exchange,currency,asset_class,theme,yahoo_ticker,include
+PHAG,WisdomTree Physical Silver,LSE,GBP,Commodity ETC,Silver,PHAG.L,1
+SGLN,iShares Physical Gold ETC,LSE,GBP,Commodity ETC,Gold,SGLN.L,1
+CMOD,Invesco Bloomberg Commodity UCITS ETF,LSE,GBP,Commodity ETF,Broad commodities,CMOD.L,1
+CRUD,WisdomTree WTI Crude Oil,LSE,GBP,Commodity ETC,Oil,CRUD.L,1
+COPA,Global X Copper Miners UCITS ETF,LSE,GBP,Equity ETF,Copper miners,COPA.L,1
+VUSA,Vanguard S&P 500 UCITS ETF,LSE,GBP,Equity ETF,US large cap,VUSA.L,1
+VWRP,Vanguard FTSE All-World UCITS ETF,LSE,GBP,Equity ETF,Global equities,VWRP.L,1
+EQQQ,Invesco EQQQ Nasdaq-100 UCITS ETF,LSE,GBP,Equity ETF,Nasdaq/technology,EQQQ.L,1
+SMGB,VanEck Semiconductor UCITS ETF,LSE,GBP,Equity ETF,Semiconductors,SMGB.L,1
+IITU,iShares S&P 500 Information Technology Sector UCITS ETF,LSE,GBP,Equity ETF,US technology,IITU.L,1
+DFNS,VanEck Defense UCITS ETF,LSE,GBP,Equity ETF,Defence,DFNS.L,1
+INRG,iShares Global Clean Energy UCITS ETF,LSE,GBP,Equity ETF,Clean energy,INRG.L,1
+IJPN,iShares MSCI Japan UCITS ETF,LSE,GBP,Equity ETF,Japan,IJPN.L,1
+INDI,iShares MSCI India UCITS ETF,LSE,GBP,Equity ETF,India,INDI.L,1
+CHIP,HSBC Nasdaq Global Semiconductor UCITS ETF,LSE,GBP,Equity ETF,Semiconductors,CHIP.L,1
+UKDV,SPDR S&P UK Dividend Aristocrats UCITS ETF,LSE,GBP,Equity ETF,UK dividend,UKDV.L,1
+ISF,iShares Core FTSE 100 UCITS ETF,LSE,GBP,Equity ETF,UK large cap,ISF.L,1
+IUFS,iShares S&P 500 Financials Sector UCITS ETF,LSE,GBP,Equity ETF,US financials,IUFS.L,1
+IUES,iShares S&P 500 Energy Sector UCITS ETF,LSE,GBP,Equity ETF,US energy,IUES.L,1
+IBTG,iShares Treasury Bond 1-3yr UCITS ETF,LSE,GBP,Bond ETF,Short US treasuries,IBTG.L,1
+IGLT,iShares Core UK Gilts UCITS ETF,LSE,GBP,Bond ETF,UK gilts,IGLT.L,1
