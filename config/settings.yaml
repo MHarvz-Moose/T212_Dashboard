@@ -1,0 +1,34 @@
+report:
+  title: "Trading 212 ISA Market Radar"
+  base_currency: "GBP"
+  min_history_days: 90
+  daily_top_n: 15
+  weekly_top_n: 25
+  output_dir: "reports"
+
+data:
+  # Use "seed" to run immediately using data/universe_seed.csv.
+  # Use "trading212" after adding API credentials and running fetch_universe.
+  universe_source: "seed"
+  price_source: "yfinance"
+
+filters:
+  min_price: 0.01
+  max_missing_ratio: 0.20
+  exclude_keywords:
+    - "3x"
+    - "2x"
+    - "leveraged"
+    - "short"
+    - "inverse"
+
+signals:
+  lookbacks:
+    short_days: 5
+    month_days: 21
+    quarter_days: 63
+    year_days: 252
+  high_windows: [20, 60, 252]
+  moving_averages: [20, 50, 200]
+  overextended_pct_above_50dma: 20
+  top_decile_threshold: 0.90
